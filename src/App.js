@@ -1,10 +1,9 @@
-import Header from "./general/Header";
-//import ListadoClientes from "./clientes/ListadoClientes";
-import ListadoAsesores from "./asesores/ListadoAsesores";
+import Header from "./componentes/general/Header";
+import ListadoAsesores from "./componentes/asesores/ListadoAsesores";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Bienvenida from "./general/Bienvenida";
-import ListadoClientes from "./clientes/ListadoClientes";
-import FormClientes from "./clientes/FormClientes";
+import Bienvenida from "./componentes/general/Bienvenida";
+import ListadoClientes from "./componentes/clientes/ListadoClientes";
+import FormClientes from "./componentes/clientes/FormClientes";
 
 const App = () => {
   return (

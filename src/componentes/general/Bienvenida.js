@@ -1,4 +1,4 @@
-import imagen_bienvenida from "../imgs/sistema_pqr2.jpg"
+import imagen_bienvenida from "../../imgs/sistema_pqr2.jpg"
 
 const Bienvenida = () => {
     return (
